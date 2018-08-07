@@ -3,7 +3,8 @@
 
 #include "wsy.h"
 #include <QVector>
-#include <QDebug>
+#include <QTime>
+#include <QtGlobal>
 
 class WSYList
 {

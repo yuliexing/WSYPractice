@@ -2,9 +2,6 @@
 #define WSY_H
 
 #include <QString>
-#include <QDebug>
-#include <QtGlobal>
-#include <QTime>
 
 class WSY
 {

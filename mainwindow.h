@@ -5,7 +5,9 @@
 #include "wsylist.h"
 #include "resultcount.h"
 #include <QHash>
+#include <QTime>
 #include <QTimer>
+#include <QtGlobal>
 
 namespace Ui {
 class MainWindow;

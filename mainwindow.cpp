@@ -168,6 +168,7 @@ void MainWindow::dealWithSubmitClicked()
         if (inputCount >= 3)
         {
             resultCount.dealWithSpecial(curJm, curWSY);
+            practiceMap.insert(curJm, curWSY);
         }
         inputCount = 0;
         double coustTime = (double)startTime.msecsTo(QTime::currentTime()) / 1000;
@@ -267,6 +268,8 @@ void MainWindow::showAllWSY()
         }
         if (wsy.getLmy() != "")
             output.append(" | ");
+        else
+            i = 0;
     }
     QMessageBox::information(this, "", output);
 }
